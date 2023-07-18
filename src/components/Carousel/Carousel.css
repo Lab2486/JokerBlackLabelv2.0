@@ -1,0 +1,35 @@
+.CarouselContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.Carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.imagen {
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 0 10px 0.5px #ffffff26;
+  border-radius: 5px;
+}
+.CarouselTitle {
+  width: 100%;
+  text-align: center;
+}
+.btn {
+  height: 10px;
+  margin: 10px;
+  background: none;
+  color: white;
+  border: none;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+}
+.btn:hover {
+  text-shadow: 0 0 10px white;
+  transform: scale(2);
+}
