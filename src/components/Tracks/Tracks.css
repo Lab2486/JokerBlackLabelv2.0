@@ -1,0 +1,13 @@
+.audioPlayer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.insideContent {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 120px;
+}

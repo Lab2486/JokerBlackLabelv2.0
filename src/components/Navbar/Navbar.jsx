@@ -17,7 +17,7 @@ function Navbar() {
           <Link to="/">
             <li>Home</li>
           </Link>
-          <Link to="tracks">
+          <Link to="/tracks">
             <li>Tracks</li>
           </Link>
           <Link to="artists">
@@ -32,31 +32,6 @@ function Navbar() {
         </button>
       </nav>
     </>
-    // <div className="NavbarContainer">
-    //   <div className="BrandContainer">
-    //     <h1 className="Brand">Joker Black Label</h1>
-    //   </div>
-    //   <div
-    //     className={Mobile ? "OptionsContainer-mobile " : "OptionsContainer"}
-    //     onClick={() => setMobile()}
-    //   >
-    //     <Link to="/" className="Links">
-    //       Home
-    //     </Link>
-    //     <Link to="tracks" className="Links">
-    //       Tracks
-    //     </Link>
-    //     <Link to="artists" className="Links">
-    //       Artists
-    //     </Link>
-    //     <Link to="minimalcast" className="Links">
-    //       Minimalcast
-    //     </Link>
-    //   </div>
-    //   <button className="mobile-menu-icon Bread">
-    //     {Mobile ? <ImCross /> : <FaBars />}
-    //   </button>
-    // </div>
   );
 }
 

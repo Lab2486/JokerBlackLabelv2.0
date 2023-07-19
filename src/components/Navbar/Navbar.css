@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 30px;
 }
 .logo {
   font-size: 2rem;
@@ -67,6 +68,6 @@ li {
   .mobile-meni-icon {
     position: absolute;
     display: block;
-    right: 20px;
+    right: 15px;
   }
 }

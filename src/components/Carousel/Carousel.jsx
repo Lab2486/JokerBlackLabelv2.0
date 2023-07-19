@@ -23,7 +23,7 @@ function Carousel({ imagenes }) {
         </button>
         {imagenes.map((imagen, index) => {
           return (
-            <div>
+            <div onClick={anteriorImagen}>
               {imagenActual === index && (
                 <img key={index} src={imagen} alt="imagen" className="imagen" />
               )}
