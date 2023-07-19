@@ -1,0 +1,19 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+.cardImg {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 10px rgb(98, 98, 98);
+  border-radius: 10px;
+}
+.cardInfo {
+  width: 100%;
+}
+.infoText {
+  margin: 0;
+}

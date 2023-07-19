@@ -2,7 +2,8 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
-import Tracks from "./components/Tracks/Tracks";
+import TracksLanding from "./components/TracksLanding/TracksLanding";
+
 function App() {
   return (
     <div>
@@ -10,7 +11,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/tracks" element={<Tracks />} />
+          <Route path="/tracks" element={<TracksLanding />} />
         </Routes>
       </BrowserRouter>
     </div>
