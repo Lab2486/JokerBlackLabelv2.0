@@ -67,5 +67,9 @@
   }
   .homeTracks {
     margin-top: 30px;
+    text-align: center;
+  }
+  .tracksTitle {
+    font-size: 2rem;
   }
 }
