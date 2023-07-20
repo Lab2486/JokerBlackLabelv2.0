@@ -12,7 +12,9 @@ function TrackCard({ imagenes }) {
             <div className="cardInfo">
               <h2 className="infoText trackName">Name</h2>
               <p className="infoText trackArtitst">Artist</p>
-              <p className="infoText Release">Release Date</p>
+              <p className="infoText Release">
+                <strong>Release Date</strong>
+              </p>
             </div>
           </div>
         );

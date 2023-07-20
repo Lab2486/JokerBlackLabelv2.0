@@ -12,8 +12,8 @@ function Home() {
   return (
     <div className="HomeContainer">
       <div className="TitleContainer">
-        <h1 className="Title">Minimal Techno</h1>
-        <h2 className="Title">Independent Music Label </h2>
+        <h1 className="homeTitle">Minimal Techno</h1>
+        <h2 className="homeTitle">Independent Music Label </h2>
       </div>
       <div className="CarouselContainer">
         <Carousel imagenes={mockImagenes} />

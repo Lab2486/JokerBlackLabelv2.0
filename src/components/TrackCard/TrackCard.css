@@ -8,7 +8,6 @@
 .cardImg {
   width: 300px;
   height: 300px;
-  box-shadow: 0 0 10px rgb(98, 98, 98);
   border-radius: 10px;
 }
 .cardInfo {
@@ -16,4 +15,22 @@
 }
 .infoText {
   margin: 0;
+}
+@media (max-width: 768px) {
+  .cardContainer {
+    width: auto;
+  }
+  .cardImg {
+    width: 150px;
+    height: 150px;
+  }
+  .trackName {
+    font-size: 1rem;
+  }
+  .trackArtitst {
+    font-size: 0.8rem;
+  }
+  .Release {
+    font-size: 0.8rem;
+  }
 }

@@ -16,7 +16,7 @@ function TracksLanding() {
   return (
     <div className="TracksLandingContainer">
       <div className="titleContainer">
-        <h1 className="Title">Tracks</h1>
+        <h1 className="trackLTitle">Tracks</h1>
       </div>
       <div className="CardContainer">
         <TrackCard imagenes={mockImagenes} />

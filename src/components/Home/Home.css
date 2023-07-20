@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.Title {
+.homeTitle {
   font-size: 3rem;
   margin: 0;
   font-weight: 400;
@@ -26,6 +26,9 @@
     rgba(93, 72, 154, 0.8800654050682774) 33%,
     rgba(0, 0, 0, 1) 74%
   );
+}
+.homeTracks {
+  margin-top: 200px;
 }
 .tracksTitle {
   margin-top: 50px;
@@ -48,10 +51,21 @@
   color: lightgray;
 }
 @media (max-width: 768px) {
-  .Title {
+  .homeTitle {
     font-size: 2rem;
   }
   .HomeContainer {
     margin-top: 50px;
+  }
+  .tracksContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+  }
+  .CarouselContainer {
+    height: 50vh;
+  }
+  .homeTracks {
+    margin-top: 30px;
   }
 }

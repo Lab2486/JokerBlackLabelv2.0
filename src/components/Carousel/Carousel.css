@@ -29,10 +29,7 @@
   display: flex;
   align-items: center;
 }
-.btn:hover {
-  text-shadow: 0 0 10px white;
-  transform: scale(2);
-}
+
 @media (max-width: 768px) {
   .btn {
     margin: 0;
