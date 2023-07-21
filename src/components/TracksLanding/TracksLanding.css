@@ -30,4 +30,11 @@
   .trackLTitle {
     font-size: 2rem;
   }
+  .iframe {
+    width: 188px;
+    height: 330px;
+  }
+  .iframesContainer {
+    gap: 10px;
+  }
 }
