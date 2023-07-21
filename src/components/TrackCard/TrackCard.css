@@ -1,6 +1,5 @@
 .cardContainer {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 20%;
@@ -19,18 +18,21 @@
 @media (max-width: 768px) {
   .cardContainer {
     width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
   }
   .cardImg {
     width: 150px;
     height: 150px;
   }
-  .trackName {
+  .epName {
     font-size: 1rem;
   }
   .trackArtitst {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   .Release {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }

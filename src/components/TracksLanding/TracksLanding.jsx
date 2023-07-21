@@ -1,25 +1,73 @@
-import React from "react";
-import TrackCard from "../TrackCard/TrackCard";
+import Iframe from "react-iframe";
 import "./TracksLanding.css";
 
 function TracksLanding() {
-  const mockImagenes = [
-    "https://f4.bcbits.com/img/a0172221191_16.jpg",
-    "https://f4.bcbits.com/img/a1543935304_16.jpg",
-    "https://f4.bcbits.com/img/a4073176033_16.jpg",
-    "https://f4.bcbits.com/img/a3410050518_16.jpg",
-    "https://f4.bcbits.com/img/a1366723079_16.jpg",
-    "https://f4.bcbits.com/img/a0736995282_16.jpg",
-    "https://f4.bcbits.com/img/a0832422060_16.jpg",
-    "https://f4.bcbits.com/img/a4054462522_16.jpg",
-  ];
   return (
-    <div className="TracksLandingContainer">
+    <div className="tracksLandingContainer">
       <div className="titleContainer">
         <h1 className="trackLTitle">Tracks</h1>
       </div>
-      <div className="CardContainer">
-        <TrackCard imagenes={mockImagenes} />
+      <div className="iframesContainer">
+        <Iframe
+          url="https://bandcamp.com/EmbeddedPlayer/album=902096618/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/track=1324750353/transparent=true/"
+          width="258px"
+          height="400px"
+          frameBorder={0}
+        />
+        <Iframe
+          url="https://bandcamp.com/EmbeddedPlayer/album=902096618/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/track=1324750353/transparent=true/"
+          width="258px"
+          height="400px"
+          frameBorder={0}
+        />
+        <Iframe
+          url="https://bandcamp.com/EmbeddedPlayer/album=222335900/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/track=1960869958/transparent=true/"
+          width="258px"
+          height="400px"
+          frameBorder={0}
+        />
+        <Iframe
+          url="https://bandcamp.com/EmbeddedPlayer/album=222335900/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/track=3970650530/transparent=true/"
+          width="258px"
+          height="400px"
+          frameBorder={0}
+        />
+        <Iframe
+          url="https://bandcamp.com/EmbeddedPlayer/album=222335900/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/track=3195922246/transparent=true/"
+          width="258px"
+          height="400px"
+          frameBorder={0}
+        />
+        <Iframe
+          url="https://bandcamp.com/EmbeddedPlayer/album=222335900/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/track=2200633402/transparent=true/"
+          width="258px"
+          height="400px"
+          frameBorder={0}
+        />
+        <Iframe
+          url="https://bandcamp.com/EmbeddedPlayer/album=2355660743/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/track=4086598237/transparent=true/"
+          width="258px"
+          height="400px"
+          frameBorder={0}
+        />
+        <Iframe
+          url="https://bandcamp.com/EmbeddedPlayer/album=2355660743/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/track=3014891731/transparent=true/"
+          width="258px"
+          height="400px"
+          frameBorder={0}
+        />
+        <Iframe
+          url="https://bandcamp.com/EmbeddedPlayer/album=1144548600/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/track=819764854/transparent=true/"
+          width="258px"
+          height="400px"
+          frameBorder={0}
+        />
+        <Iframe
+          url="https://bandcamp.com/EmbeddedPlayer/album=1144548600/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/track=3958817297/transparent=true/"
+          width="258px"
+          height="400px"
+          frameBorder={0}
+        />
       </div>
     </div>
   );
