@@ -9,24 +9,25 @@ function Home() {
       name: "Twin Flames (EP)",
       artist: "JØKR",
       imagen: "https://f4.bcbits.com/img/a0172221191_16.jpg",
-      release: "mayo 5 2022",
+      release: "July 1, 2023 ",
     },
     {
       name: "Paranormal (EP)",
       artist: "Dykstra, Yanacone, KOLD, KØDA",
       imagen: "https://f4.bcbits.com/img/a1543935304_16.jpg",
-      release: "mayo 5 2022",
+      release: "May 12, 2023",
     },
     {
       name: "Rider of Hell (EP)",
       artist: "Dark Saw",
       imagen: "https://f4.bcbits.com/img/a4073176033_16.jpg",
-      release: "mayo 5 2022",
+      release: "March 23, 2023",
     },
     {
-      artist: "jokr",
+      name: "Tucibi (EP) ",
+      artist: "Eddy JB",
       imagen: "https://f4.bcbits.com/img/a3410050518_16.jpg",
-      release: "mayo 5 2022",
+      release: "March 10, 2023 ",
     },
   ];
 
